@@ -2678,9 +2678,6 @@ F 3 "" H 5300 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3400 7150
-NoConn ~ 4600 7050
-NoConn ~ 4600 7150
-NoConn ~ 4600 7250
 NoConn ~ 4600 9050
 NoConn ~ 4600 9250
 NoConn ~ 4600 9350
@@ -3010,17 +3007,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontr
 $EndComp
 Connection ~ 4100 6250
 $Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW75
-U 1 1 5EA99F5E
-P 13750 2950
-F 0 "SW75" H 13750 3183 60  0000 C CNN
-F 1 "KEYSW" H 13750 2850 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13750 2950 60  0001 C CNN
-F 3 "" H 13750 2950 60  0000 C CNN
-	1    13750 2950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D75
 U 1 1 5EA99F64
 P 13400 3150
@@ -3149,35 +3135,6 @@ Wire Wire Line
 	12700 5050 13400 5050
 Wire Wire Line
 	12700 5600 13400 5600
-Text Label 14050 3050 3    50   ~ 0
-col14
-Text GLabel 14050 2900 1    50   Input ~ 0
-col15
-Wire Wire Line
-	14050 2900 14050 2950
-Connection ~ 14050 2950
-Wire Wire Line
-	14050 2950 14050 3500
-Connection ~ 14050 3500
-Wire Wire Line
-	14050 3500 14050 4100
-Connection ~ 14050 4100
-Wire Wire Line
-	14050 4100 14050 4700
-Connection ~ 14050 4700
-Wire Wire Line
-	14050 4700 14050 5250
-$Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW76
-U 1 1 5EAC2A3F
-P 14450 2950
-F 0 "SW76" H 14450 3183 60  0000 C CNN
-F 1 "KEYSW" H 14450 2850 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 14450 2950 60  0001 C CNN
-F 3 "" H 14450 2950 60  0000 C CNN
-	1    14450 2950
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D D76
 U 1 1 5EAC2A45
@@ -3307,35 +3264,6 @@ Wire Wire Line
 	13400 5050 14100 5050
 Wire Wire Line
 	13400 5600 14100 5600
-Text Label 14750 3050 3    50   ~ 0
-col14
-Text GLabel 14750 2900 1    50   Input ~ 0
-col16
-Wire Wire Line
-	14750 2900 14750 2950
-Connection ~ 14750 2950
-Wire Wire Line
-	14750 2950 14750 3500
-Connection ~ 14750 3500
-Wire Wire Line
-	14750 3500 14750 4100
-Connection ~ 14750 4100
-Wire Wire Line
-	14750 4100 14750 4700
-Connection ~ 14750 4700
-Wire Wire Line
-	14750 4700 14750 5250
-$Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW77
-U 1 1 5EAED0D2
-P 15150 2950
-F 0 "SW77" H 15150 3183 60  0000 C CNN
-F 1 "KEYSW" H 15150 2850 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 15150 2950 60  0001 C CNN
-F 3 "" H 15150 2950 60  0000 C CNN
-	1    15150 2950
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D D77
 U 1 1 5EAED0D8
@@ -3351,17 +3279,6 @@ Wire Wire Line
 	14850 2950 14800 2950
 Wire Wire Line
 	14800 2950 14800 3000
-$Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW80
-U 1 1 5EAED0E0
-P 15150 3500
-F 0 "SW80" H 15150 3733 60  0000 C CNN
-F 1 "KEYSW" H 15150 3400 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_2.00u_PCBNOSCREEN" H 15150 3500 60  0001 C CNN
-F 3 "" H 15150 3500 60  0000 C CNN
-	1    15150 3500
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D D80
 U 1 1 5EAED0E6
@@ -3415,16 +3332,96 @@ Wire Wire Line
 	14100 4450 14800 4450
 Wire Wire Line
 	14100 5050 14800 5050
-Text Label 15450 3050 3    50   ~ 0
-col14
-Text GLabel 15450 2900 1    50   Input ~ 0
-col17
-Wire Wire Line
-	15450 2900 15450 2950
-Connection ~ 15450 2950
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW76
+U 1 1 5EAC2A3F
+P 14450 2950
+F 0 "SW76" H 14450 3183 60  0000 C CNN
+F 1 "KEYSW" H 14450 2850 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 14450 2950 60  0001 C CNN
+F 3 "" H 14450 2950 60  0000 C CNN
+	1    14450 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW80
+U 1 1 5EAED0E0
+P 15150 3500
+F 0 "SW80" H 15150 3733 60  0000 C CNN
+F 1 "KEYSW" H 15150 3400 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_2.00u_PCBNOSCREEN" H 15150 3500 60  0001 C CNN
+F 3 "" H 15150 3500 60  0000 C CNN
+	1    15150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW77
+U 1 1 5EAED0D2
+P 15150 2950
+F 0 "SW77" H 15150 3183 60  0000 C CNN
+F 1 "KEYSW" H 15150 2850 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 15150 2950 60  0001 C CNN
+F 3 "" H 15150 2950 60  0000 C CNN
+	1    15150 2950
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	15450 2950 15450 3500
 Wire Wire Line
-	15450 3500 15450 4700
+	15450 4700 15450 3500
 Connection ~ 15450 3500
+Wire Wire Line
+	15450 2800 15450 2950
+Connection ~ 15450 2950
+Text GLabel 14750 2900 1    50   Input ~ 0
+col16
+Text GLabel 14050 2900 1    50   Input ~ 0
+col15
+Wire Wire Line
+	14050 2900 14050 2950
+Connection ~ 14050 3500
+Wire Wire Line
+	14050 3500 14050 4100
+Connection ~ 14050 4100
+Wire Wire Line
+	14050 4100 14050 4700
+Connection ~ 14050 4700
+Wire Wire Line
+	14050 4700 14050 5250
+Wire Wire Line
+	14750 2900 14750 2950
+Connection ~ 14750 2950
+Wire Wire Line
+	14750 2950 14750 3500
+Connection ~ 14750 3500
+Wire Wire Line
+	14750 3500 14750 4100
+Connection ~ 14750 4100
+Wire Wire Line
+	14750 4100 14750 4700
+Connection ~ 14750 4700
+Wire Wire Line
+	14750 4700 14750 5250
+Text GLabel 15450 2900 1    50   Input ~ 0
+col17
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW75
+U 1 1 5EB71A2B
+P 13750 2950
+F 0 "SW75" H 13750 3183 60  0000 C CNN
+F 1 "KEYSW" H 13750 2850 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13750 2950 60  0001 C CNN
+F 3 "" H 13750 2950 60  0000 C CNN
+	1    13750 2950
+	1    0    0    -1  
+$EndComp
+Connection ~ 14050 2950
+Wire Wire Line
+	14050 2950 14050 3500
+Text GLabel 4600 7050 2    50   Input ~ 0
+col15
+Text GLabel 4600 7150 2    50   Input ~ 0
+col16
+Text GLabel 4600 7250 2    50   Input ~ 0
+col17
 $EndSCHEMATC
