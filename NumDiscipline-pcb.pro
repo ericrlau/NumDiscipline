@@ -1,6 +1,6 @@
-update=Monday, April 27, 2020 at 08:33:19 AM
+update=Monday, April 27, 2020 at 11:38:15 AM
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -30,6 +30,7 @@ MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
 TrackWidth2=0.25
+TrackWidth3=0.4
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
