@@ -1,4 +1,4 @@
-(module AVR_ICSP_3x2 (layer F.Cu) (tedit 5EA74246)
+(module AVR_ICSP_3x2 (layer F.Cu) (tedit 5EA898AB)
   (descr "Double rangee de contacts 2 x 4 pins")
   (tags CONN)
   (fp_text reference J1 (at 4.195 3.596) (layer F.SilkS) hide
