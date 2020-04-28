@@ -18,7 +18,7 @@ L discipline-pcb-rescue:KEYSW-keyboard_parts SW1
 U 1 1 5BDAA9A5
 P 3250 2950
 F 0 "SW1" H 3250 3183 60  0000 C CNN
-F 1 "KEYSW" H 3250 2850 60  0001 C CNN
+F 1 "ESCAPE" H 3250 2850 60  0001 C CNN
 F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 3250 2950 60  0001 C CNN
 F 3 "" H 3250 2950 60  0000 C CNN
 	1    3250 2950
@@ -44,7 +44,7 @@ L discipline-pcb-rescue:KEYSW-keyboard_parts SW2
 U 1 1 5BDB3743
 P 3950 2950
 F 0 "SW2" H 3950 3183 60  0000 C CNN
-F 1 "KEYSW" H 3950 2850 60  0001 C CNN
+F 1 "1" H 3950 2850 60  0001 C CNN
 F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 3950 2950 60  0001 C CNN
 F 3 "" H 3950 2950 60  0000 C CNN
 	1    3950 2950
@@ -377,32 +377,6 @@ Wire Wire Line
 	12050 2950 12000 2950
 Wire Wire Line
 	12000 2950 12000 3000
-$Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW15
-U 1 1 5BDD186B
-P 13050 2950
-F 0 "SW15" H 13050 3183 60  0000 C CNN
-F 1 "KEYSW" H 13050 2850 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13050 2950 60  0001 C CNN
-F 3 "" H 13050 2950 60  0000 C CNN
-	1    13050 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D15
-U 1 1 5BDD1872
-P 12700 3150
-F 0 "D15" V 12746 3071 50  0000 R CNN
-F 1 " " V 12655 3071 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 12700 3150 50  0001 C CNN
-F 3 "~" H 12700 3150 50  0001 C CNN
-	1    12700 3150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12750 2950 12700 2950
-Wire Wire Line
-	12700 2950 12700 3000
 $Comp
 L discipline-pcb-rescue:KEYSW-keyboard_parts SW16
 U 1 1 5BDD4A79
@@ -768,32 +742,6 @@ Wire Wire Line
 Wire Wire Line
 	12000 3500 12000 3550
 $Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW30
-U 1 1 5BDD4B59
-P 13050 3500
-F 0 "SW30" H 13050 3733 60  0000 C CNN
-F 1 "KEYSW" H 13050 3400 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13050 3500 60  0001 C CNN
-F 3 "" H 13050 3500 60  0000 C CNN
-	1    13050 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D30
-U 1 1 5BDD4B60
-P 12700 3700
-F 0 "D30" V 12746 3621 50  0000 R CNN
-F 1 " " V 12655 3621 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 12700 3700 50  0001 C CNN
-F 3 "~" H 12700 3700 50  0001 C CNN
-	1    12700 3700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12750 3500 12700 3500
-Wire Wire Line
-	12700 3500 12700 3550
-$Comp
 L discipline-pcb-rescue:KEYSW-keyboard_parts SW31
 U 1 1 5BE2E393
 P 3250 4100
@@ -1132,32 +1080,6 @@ Wire Wire Line
 Wire Wire Line
 	12000 4100 12000 4150
 $Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW44
-U 1 1 5BE2E463
-P 13050 4100
-F 0 "SW44" H 13050 4333 60  0000 C CNN
-F 1 "KEYSW" H 13050 4000 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13050 4100 60  0001 C CNN
-F 3 "" H 13050 4100 60  0000 C CNN
-	1    13050 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D44
-U 1 1 5BE2E46A
-P 12700 4300
-F 0 "D44" V 12746 4221 50  0000 R CNN
-F 1 " " V 12655 4221 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 12700 4300 50  0001 C CNN
-F 3 "~" H 12700 4300 50  0001 C CNN
-	1    12700 4300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12750 4100 12700 4100
-Wire Wire Line
-	12700 4100 12700 4150
-$Comp
 L discipline-pcb-rescue:KEYSW-keyboard_parts SW45
 U 1 1 5BE34833
 P 3250 4700
@@ -1469,58 +1391,10 @@ Wire Wire Line
 	11350 4700 11300 4700
 Wire Wire Line
 	11300 4700 11300 4750
-$Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW57
-U 1 1 5BE348F3
-P 12350 4700
-F 0 "SW57" H 12350 4933 60  0000 C CNN
-F 1 "KEYSW" H 12350 4600 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 12350 4700 60  0001 C CNN
-F 3 "" H 12350 4700 60  0000 C CNN
-	1    12350 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D57
-U 1 1 5BE348FA
-P 12000 4900
-F 0 "D57" V 12046 4821 50  0000 R CNN
-F 1 " " V 11955 4821 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 12000 4900 50  0001 C CNN
-F 3 "~" H 12000 4900 50  0001 C CNN
-	1    12000 4900
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	12050 4700 12000 4700
 Wire Wire Line
 	12000 4700 12000 4750
-$Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW58
-U 1 1 5BE34903
-P 13050 4700
-F 0 "SW58" H 13050 4933 60  0000 C CNN
-F 1 "KEYSW" H 13050 4600 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13050 4700 60  0001 C CNN
-F 3 "" H 13050 4700 60  0000 C CNN
-	1    13050 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D58
-U 1 1 5BE3490A
-P 12700 4900
-F 0 "D58" V 12746 4821 50  0000 R CNN
-F 1 " " V 12655 4821 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 12700 4900 50  0001 C CNN
-F 3 "~" H 12700 4900 50  0001 C CNN
-	1    12700 4900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12750 4700 12700 4700
-Wire Wire Line
-	12700 4700 12700 4750
 $Comp
 L discipline-pcb-rescue:KEYSW-keyboard_parts SW59
 U 1 1 5BE64C5B
@@ -1675,84 +1549,6 @@ Wire Wire Line
 	9950 5250 9900 5250
 Wire Wire Line
 	9900 5250 9900 5300
-$Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW65
-U 1 1 5BE881D1
-P 11650 5250
-F 0 "SW65" H 11650 5483 60  0000 C CNN
-F 1 "KEYSW" H 11650 5150 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 11650 5250 60  0001 C CNN
-F 3 "" H 11650 5250 60  0000 C CNN
-	1    11650 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D65
-U 1 1 5BE881D8
-P 11300 5450
-F 0 "D65" V 11346 5371 50  0000 R CNN
-F 1 " " V 11255 5371 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 11300 5450 50  0001 C CNN
-F 3 "~" H 11300 5450 50  0001 C CNN
-	1    11300 5450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11350 5250 11300 5250
-Wire Wire Line
-	11300 5250 11300 5300
-$Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW66
-U 1 1 5BE881E1
-P 12350 5250
-F 0 "SW66" H 12350 5483 60  0000 C CNN
-F 1 "KEYSW" H 12350 5150 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 12350 5250 60  0001 C CNN
-F 3 "" H 12350 5250 60  0000 C CNN
-	1    12350 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D66
-U 1 1 5BE881E8
-P 12000 5450
-F 0 "D66" V 12046 5371 50  0000 R CNN
-F 1 " " V 11955 5371 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 12000 5450 50  0001 C CNN
-F 3 "~" H 12000 5450 50  0001 C CNN
-	1    12000 5450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12050 5250 12000 5250
-Wire Wire Line
-	12000 5250 12000 5300
-$Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW67
-U 1 1 5BE881F1
-P 13050 5250
-F 0 "SW67" H 13050 5483 60  0000 C CNN
-F 1 "KEYSW" H 13050 5150 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13050 5250 60  0001 C CNN
-F 3 "" H 13050 5250 60  0000 C CNN
-	1    13050 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D67
-U 1 1 5BE881F8
-P 12700 5450
-F 0 "D67" V 12746 5371 50  0000 R CNN
-F 1 " " V 12655 5371 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 12700 5450 50  0001 C CNN
-F 3 "~" H 12700 5450 50  0001 C CNN
-	1    12700 5450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12750 5250 12700 5250
-Wire Wire Line
-	12700 5250 12700 5300
 Wire Wire Line
 	2900 3300 3600 3300
 Connection ~ 3600 3300
@@ -1791,9 +1587,6 @@ Wire Wire Line
 Connection ~ 11300 3300
 Wire Wire Line
 	11300 3300 12000 3300
-Connection ~ 12000 3300
-Wire Wire Line
-	12000 3300 12700 3300
 Wire Wire Line
 	2850 3300 2900 3300
 Connection ~ 2900 3300
@@ -1838,9 +1631,6 @@ Wire Wire Line
 Connection ~ 11300 3850
 Wire Wire Line
 	11300 3850 12000 3850
-Connection ~ 12000 3850
-Wire Wire Line
-	12000 3850 12700 3850
 Text Label 2850 3300 0    50   ~ 0
 row0
 Text Label 2850 3850 0    50   ~ 0
@@ -1880,9 +1670,6 @@ Wire Wire Line
 Connection ~ 10600 4450
 Wire Wire Line
 	10600 4450 12000 4450
-Connection ~ 12000 4450
-Wire Wire Line
-	12000 4450 12700 4450
 Connection ~ 4300 5050
 Wire Wire Line
 	4300 5050 5000 5050
@@ -1913,22 +1700,11 @@ Wire Wire Line
 Connection ~ 10600 5050
 Wire Wire Line
 	10600 5050 11300 5050
-Connection ~ 11300 5050
-Wire Wire Line
-	11300 5050 12000 5050
-Connection ~ 12000 5050
-Wire Wire Line
-	12000 5050 12700 5050
 Wire Wire Line
 	3600 5600 4300 5600
 Connection ~ 4300 5600
 Wire Wire Line
 	4300 5600 7100 5600
-Wire Wire Line
-	11300 5600 12000 5600
-Connection ~ 12000 5600
-Wire Wire Line
-	12000 5600 12700 5600
 Wire Wire Line
 	2850 4450 2900 4450
 Connection ~ 2900 4450
@@ -1981,8 +1757,6 @@ Text Label 11950 3100 3    50   ~ 0
 col12
 Text Label 12650 3000 3    50   ~ 0
 col13
-Text Label 13350 3050 3    50   ~ 0
-col14
 Text GLabel 2850 3300 0    50   Input ~ 0
 row0
 Text GLabel 2850 3850 0    50   Input ~ 0
@@ -2021,8 +1795,6 @@ Text GLabel 11950 2900 1    50   Input ~ 0
 col12
 Text GLabel 12650 2900 1    50   Input ~ 0
 col13
-Text GLabel 13350 2900 1    50   Input ~ 0
-col14
 Wire Wire Line
 	2900 5250 2900 5300
 Text Notes 11900 10050 0    50   ~ 0
@@ -2066,10 +1838,6 @@ Connection ~ 9200 5600
 Wire Wire Line
 	9900 5600 10600 5600
 Connection ~ 9900 5600
-Wire Wire Line
-	10600 5600 11300 5600
-Connection ~ 10600 5600
-Connection ~ 11300 5600
 Wire Wire Line
 	7500 6750 7650 6750
 Wire Wire Line
@@ -2850,9 +2618,6 @@ Wire Wire Line
 Connection ~ 11950 3500
 Wire Wire Line
 	11950 3500 11950 4700
-Connection ~ 11950 4700
-Wire Wire Line
-	11950 4700 11950 5250
 Wire Wire Line
 	12650 2900 12650 2950
 Connection ~ 12650 2950
@@ -2864,23 +2629,6 @@ Wire Wire Line
 Connection ~ 12650 4100
 Wire Wire Line
 	12650 4100 12650 4700
-Connection ~ 12650 4700
-Wire Wire Line
-	12650 4700 12650 5250
-Wire Wire Line
-	13350 2900 13350 2950
-Connection ~ 13350 2950
-Wire Wire Line
-	13350 2950 13350 3500
-Connection ~ 13350 3500
-Wire Wire Line
-	13350 3500 13350 4100
-Connection ~ 13350 4100
-Wire Wire Line
-	13350 4100 13350 4700
-Connection ~ 13350 4700
-Wire Wire Line
-	13350 4700 13350 5250
 $Comp
 L discipline-pcb-rescue:KEYSW-keyboard_parts SW69
 U 1 1 5DC1DEA4
@@ -3006,341 +2754,74 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontr
 	1    0    0    -1  
 $EndComp
 Connection ~ 4100 6250
-$Comp
-L Device:D D75
-U 1 1 5EA99F64
-P 13400 3150
-F 0 "D75" V 13446 3071 50  0000 R CNN
-F 1 " " V 13355 3071 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13400 3150 50  0001 C CNN
-F 3 "~" H 13400 3150 50  0001 C CNN
-	1    13400 3150
-	0    -1   -1   0   
-$EndComp
+Text GLabel 4600 7050 2    50   Input ~ 0
+col15
+Text GLabel 4600 7150 2    50   Input ~ 0
+col16
+Text GLabel 4600 7250 2    50   Input ~ 0
+col17
+Connection ~ 11300 5050
 Wire Wire Line
-	13450 2950 13400 2950
+	11300 5050 12000 5050
+Connection ~ 12000 4450
+Connection ~ 12000 3850
+Connection ~ 12000 3300
 Wire Wire Line
-	13400 2950 13400 3000
+	14050 2950 14050 3500
+Connection ~ 14050 2950
 $Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW78
-U 1 1 5EA99F6C
-P 13750 3500
-F 0 "SW78" H 13750 3733 60  0000 C CNN
-F 1 "KEYSW" H 13750 3400 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13750 3500 60  0001 C CNN
-F 3 "" H 13750 3500 60  0000 C CNN
-	1    13750 3500
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW75
+U 1 1 5EB71A2B
+P 13750 2950
+F 0 "SW75" H 13750 3183 60  0000 C CNN
+F 1 "KEYSW" H 13750 2850 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13750 2950 60  0001 C CNN
+F 3 "" H 13750 2950 60  0000 C CNN
+	1    13750 2950
 	1    0    0    -1  
 $EndComp
+Text GLabel 15450 2900 1    50   Input ~ 0
+col17
+Wire Wire Line
+	14750 4100 14750 4700
+Connection ~ 14750 4100
+Wire Wire Line
+	14750 3500 14750 4100
+Connection ~ 14750 3500
+Wire Wire Line
+	14750 2950 14750 3500
+Connection ~ 14750 2950
+Wire Wire Line
+	14750 2900 14750 2950
+Wire Wire Line
+	14050 4100 14050 4700
+Connection ~ 14050 4100
+Wire Wire Line
+	14050 3500 14050 4100
+Connection ~ 14050 3500
+Wire Wire Line
+	14050 2900 14050 2950
+Text GLabel 14050 2900 1    50   Input ~ 0
+col15
+Text GLabel 14750 2900 1    50   Input ~ 0
+col16
+Connection ~ 15450 2950
+Wire Wire Line
+	15450 2800 15450 2950
+Connection ~ 15450 3500
+Wire Wire Line
+	15450 4700 15450 3500
+Wire Wire Line
+	15450 2950 15450 3500
 $Comp
-L Device:D D78
-U 1 1 5EA99F72
-P 13400 3700
-F 0 "D78" V 13446 3621 50  0000 R CNN
-F 1 " " V 13355 3621 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13400 3700 50  0001 C CNN
-F 3 "~" H 13400 3700 50  0001 C CNN
-	1    13400 3700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	13450 3500 13400 3500
-Wire Wire Line
-	13400 3500 13400 3550
-$Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW81
-U 1 1 5EA99F7A
-P 13750 4100
-F 0 "SW81" H 13750 4333 60  0000 C CNN
-F 1 "KEYSW" H 13750 4000 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13750 4100 60  0001 C CNN
-F 3 "" H 13750 4100 60  0000 C CNN
-	1    13750 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D81
-U 1 1 5EA99F80
-P 13400 4300
-F 0 "D81" V 13446 4221 50  0000 R CNN
-F 1 " " V 13355 4221 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13400 4300 50  0001 C CNN
-F 3 "~" H 13400 4300 50  0001 C CNN
-	1    13400 4300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	13450 4100 13400 4100
-Wire Wire Line
-	13400 4100 13400 4150
-$Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW83
-U 1 1 5EA99F88
-P 13750 4700
-F 0 "SW83" H 13750 4933 60  0000 C CNN
-F 1 "KEYSW" H 13750 4600 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13750 4700 60  0001 C CNN
-F 3 "" H 13750 4700 60  0000 C CNN
-	1    13750 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D83
-U 1 1 5EA99F8E
-P 13400 4900
-F 0 "D83" V 13446 4821 50  0000 R CNN
-F 1 " " V 13355 4821 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13400 4900 50  0001 C CNN
-F 3 "~" H 13400 4900 50  0001 C CNN
-	1    13400 4900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	13450 4700 13400 4700
-Wire Wire Line
-	13400 4700 13400 4750
-$Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW86
-U 1 1 5EA99F96
-P 13750 5250
-F 0 "SW86" H 13750 5483 60  0000 C CNN
-F 1 "KEYSW" H 13750 5150 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13750 5250 60  0001 C CNN
-F 3 "" H 13750 5250 60  0000 C CNN
-	1    13750 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D86
-U 1 1 5EA99F9C
-P 13400 5450
-F 0 "D86" V 13446 5371 50  0000 R CNN
-F 1 " " V 13355 5371 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13400 5450 50  0001 C CNN
-F 3 "~" H 13400 5450 50  0001 C CNN
-	1    13400 5450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	13450 5250 13400 5250
-Wire Wire Line
-	13400 5250 13400 5300
-Wire Wire Line
-	12700 3300 13400 3300
-Wire Wire Line
-	12700 3850 13400 3850
-Wire Wire Line
-	12700 4450 13400 4450
-Wire Wire Line
-	12700 5050 13400 5050
-Wire Wire Line
-	12700 5600 13400 5600
-$Comp
-L Device:D D76
-U 1 1 5EAC2A45
-P 14100 3150
-F 0 "D76" V 14146 3071 50  0000 R CNN
-F 1 " " V 14055 3071 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 14100 3150 50  0001 C CNN
-F 3 "~" H 14100 3150 50  0001 C CNN
-	1    14100 3150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14150 2950 14100 2950
-Wire Wire Line
-	14100 2950 14100 3000
-$Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW79
-U 1 1 5EAC2A4D
-P 14450 3500
-F 0 "SW79" H 14450 3733 60  0000 C CNN
-F 1 "KEYSW" H 14450 3400 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 14450 3500 60  0001 C CNN
-F 3 "" H 14450 3500 60  0000 C CNN
-	1    14450 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D79
-U 1 1 5EAC2A53
-P 14100 3700
-F 0 "D79" V 14146 3621 50  0000 R CNN
-F 1 " " V 14055 3621 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 14100 3700 50  0001 C CNN
-F 3 "~" H 14100 3700 50  0001 C CNN
-	1    14100 3700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14150 3500 14100 3500
-Wire Wire Line
-	14100 3500 14100 3550
-$Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW82
-U 1 1 5EAC2A5B
-P 14450 4100
-F 0 "SW82" H 14450 4333 60  0000 C CNN
-F 1 "KEYSW" H 14450 4000 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 14450 4100 60  0001 C CNN
-F 3 "" H 14450 4100 60  0000 C CNN
-	1    14450 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D82
-U 1 1 5EAC2A61
-P 14100 4300
-F 0 "D82" V 14146 4221 50  0000 R CNN
-F 1 " " V 14055 4221 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 14100 4300 50  0001 C CNN
-F 3 "~" H 14100 4300 50  0001 C CNN
-	1    14100 4300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14150 4100 14100 4100
-Wire Wire Line
-	14100 4100 14100 4150
-$Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW84
-U 1 1 5EAC2A69
-P 14450 4700
-F 0 "SW84" H 14450 4933 60  0000 C CNN
-F 1 "KEYSW" H 14450 4600 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 14450 4700 60  0001 C CNN
-F 3 "" H 14450 4700 60  0000 C CNN
-	1    14450 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D84
-U 1 1 5EAC2A6F
-P 14100 4900
-F 0 "D84" V 14146 4821 50  0000 R CNN
-F 1 " " V 14055 4821 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 14100 4900 50  0001 C CNN
-F 3 "~" H 14100 4900 50  0001 C CNN
-	1    14100 4900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14150 4700 14100 4700
-Wire Wire Line
-	14100 4700 14100 4750
-$Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW87
-U 1 1 5EAC2A77
-P 14450 5250
-F 0 "SW87" H 14450 5483 60  0000 C CNN
-F 1 "KEYSW" H 14450 5150 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 14450 5250 60  0001 C CNN
-F 3 "" H 14450 5250 60  0000 C CNN
-	1    14450 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D87
-U 1 1 5EAC2A7D
-P 14100 5450
-F 0 "D87" V 14146 5371 50  0000 R CNN
-F 1 " " V 14055 5371 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 14100 5450 50  0001 C CNN
-F 3 "~" H 14100 5450 50  0001 C CNN
-	1    14100 5450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14150 5250 14100 5250
-Wire Wire Line
-	14100 5250 14100 5300
-Wire Wire Line
-	13400 3300 14100 3300
-Wire Wire Line
-	13400 3850 14100 3850
-Wire Wire Line
-	13400 4450 14100 4450
-Wire Wire Line
-	13400 5050 14100 5050
-Wire Wire Line
-	13400 5600 14100 5600
-$Comp
-L Device:D D77
-U 1 1 5EAED0D8
-P 14800 3150
-F 0 "D77" V 14846 3071 50  0000 R CNN
-F 1 " " V 14755 3071 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 14800 3150 50  0001 C CNN
-F 3 "~" H 14800 3150 50  0001 C CNN
-	1    14800 3150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14850 2950 14800 2950
-Wire Wire Line
-	14800 2950 14800 3000
-$Comp
-L Device:D D80
-U 1 1 5EAED0E6
-P 14800 3700
-F 0 "D80" V 14846 3621 50  0000 R CNN
-F 1 " " V 14755 3621 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 14800 3700 50  0001 C CNN
-F 3 "~" H 14800 3700 50  0001 C CNN
-	1    14800 3700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14850 3500 14800 3500
-Wire Wire Line
-	14800 3500 14800 3550
-Wire Wire Line
-	14850 4100 14800 4100
-Wire Wire Line
-	14800 4100 14800 4150
-$Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW85
-U 1 1 5EAED0FC
-P 15150 4700
-F 0 "SW85" H 15150 4933 60  0000 C CNN
-F 1 "KEYSW" H 15150 4600 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_2.00u_PCBNOSCREEN" H 15150 4700 60  0001 C CNN
-F 3 "" H 15150 4700 60  0000 C CNN
-	1    15150 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D85
-U 1 1 5EAED102
-P 14800 4900
-F 0 "D85" V 14846 4821 50  0000 R CNN
-F 1 " " V 14755 4821 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 14800 4900 50  0001 C CNN
-F 3 "~" H 14800 4900 50  0001 C CNN
-	1    14800 4900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14850 4700 14800 4700
-Wire Wire Line
-	14800 4700 14800 4750
-Wire Wire Line
-	14100 3300 14800 3300
-Wire Wire Line
-	14100 3850 14800 3850
-Wire Wire Line
-	14100 4450 14800 4450
-Wire Wire Line
-	14100 5050 14800 5050
-$Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW76
-U 1 1 5EAC2A3F
-P 14450 2950
-F 0 "SW76" H 14450 3183 60  0000 C CNN
-F 1 "KEYSW" H 14450 2850 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 14450 2950 60  0001 C CNN
-F 3 "" H 14450 2950 60  0000 C CNN
-	1    14450 2950
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW77
+U 1 1 5EAED0D2
+P 15150 2950
+F 0 "SW77" H 15150 3183 60  0000 C CNN
+F 1 "KEYSW" H 15150 2850 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 15150 2950 60  0001 C CNN
+F 3 "" H 15150 2950 60  0000 C CNN
+	1    15150 2950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3355,73 +2836,706 @@ F 3 "" H 15150 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW77
-U 1 1 5EAED0D2
-P 15150 2950
-F 0 "SW77" H 15150 3183 60  0000 C CNN
-F 1 "KEYSW" H 15150 2850 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 15150 2950 60  0001 C CNN
-F 3 "" H 15150 2950 60  0000 C CNN
-	1    15150 2950
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW76
+U 1 1 5EAC2A3F
+P 14450 2950
+F 0 "SW76" H 14450 3183 60  0000 C CNN
+F 1 "KEYSW" H 14450 2850 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 14450 2950 60  0001 C CNN
+F 3 "" H 14450 2950 60  0000 C CNN
+	1    14450 2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15450 2950 15450 3500
+	14100 5050 14800 5050
 Wire Wire Line
-	15450 4700 15450 3500
-Connection ~ 15450 3500
+	14100 4450 14800 4450
 Wire Wire Line
-	15450 2800 15450 2950
-Connection ~ 15450 2950
-Text GLabel 14750 2900 1    50   Input ~ 0
-col16
-Text GLabel 14050 2900 1    50   Input ~ 0
-col15
+	14100 3850 14800 3850
 Wire Wire Line
-	14050 2900 14050 2950
-Connection ~ 14050 3500
+	14100 3300 14800 3300
 Wire Wire Line
-	14050 3500 14050 4100
-Connection ~ 14050 4100
+	14800 4700 14800 4750
 Wire Wire Line
-	14050 4100 14050 4700
+	14850 4700 14800 4700
+$Comp
+L Device:D D85
+U 1 1 5EAED102
+P 14800 4900
+F 0 "D85" V 14846 4821 50  0000 R CNN
+F 1 " " V 14755 4821 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 14800 4900 50  0001 C CNN
+F 3 "~" H 14800 4900 50  0001 C CNN
+	1    14800 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW85
+U 1 1 5EAED0FC
+P 15150 4700
+F 0 "SW85" H 15150 4933 60  0000 C CNN
+F 1 "KEYSW" H 15150 4600 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_2.00u_PCBNOSCREEN" H 15150 4700 60  0001 C CNN
+F 3 "" H 15150 4700 60  0000 C CNN
+	1    15150 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14800 4100 14800 4150
+Wire Wire Line
+	14850 4100 14800 4100
+Wire Wire Line
+	14800 3500 14800 3550
+Wire Wire Line
+	14850 3500 14800 3500
+$Comp
+L Device:D D80
+U 1 1 5EAED0E6
+P 14800 3700
+F 0 "D80" V 14846 3621 50  0000 R CNN
+F 1 " " V 14755 3621 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 14800 3700 50  0001 C CNN
+F 3 "~" H 14800 3700 50  0001 C CNN
+	1    14800 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14800 2950 14800 3000
+Wire Wire Line
+	14850 2950 14800 2950
+$Comp
+L Device:D D77
+U 1 1 5EAED0D8
+P 14800 3150
+F 0 "D77" V 14846 3071 50  0000 R CNN
+F 1 " " V 14755 3071 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 14800 3150 50  0001 C CNN
+F 3 "~" H 14800 3150 50  0001 C CNN
+	1    14800 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13400 5050 14100 5050
+Wire Wire Line
+	13400 4450 14100 4450
+Wire Wire Line
+	13400 3850 14100 3850
+Wire Wire Line
+	13400 3300 14100 3300
+Wire Wire Line
+	14100 4700 14100 4750
+Wire Wire Line
+	14150 4700 14100 4700
+$Comp
+L Device:D D84
+U 1 1 5EAC2A6F
+P 14100 4900
+F 0 "D84" V 14146 4821 50  0000 R CNN
+F 1 " " V 14055 4821 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 14100 4900 50  0001 C CNN
+F 3 "~" H 14100 4900 50  0001 C CNN
+	1    14100 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW84
+U 1 1 5EAC2A69
+P 14450 4700
+F 0 "SW84" H 14450 4933 60  0000 C CNN
+F 1 "KEYSW" H 14450 4600 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 14450 4700 60  0001 C CNN
+F 3 "" H 14450 4700 60  0000 C CNN
+	1    14450 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 4100 14100 4150
+Wire Wire Line
+	14150 4100 14100 4100
+$Comp
+L Device:D D82
+U 1 1 5EAC2A61
+P 14100 4300
+F 0 "D82" V 14146 4221 50  0000 R CNN
+F 1 " " V 14055 4221 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 14100 4300 50  0001 C CNN
+F 3 "~" H 14100 4300 50  0001 C CNN
+	1    14100 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW82
+U 1 1 5EAC2A5B
+P 14450 4100
+F 0 "SW82" H 14450 4333 60  0000 C CNN
+F 1 "KEYSW" H 14450 4000 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 14450 4100 60  0001 C CNN
+F 3 "" H 14450 4100 60  0000 C CNN
+	1    14450 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 3500 14100 3550
+Wire Wire Line
+	14150 3500 14100 3500
+$Comp
+L Device:D D79
+U 1 1 5EAC2A53
+P 14100 3700
+F 0 "D79" V 14146 3621 50  0000 R CNN
+F 1 " " V 14055 3621 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 14100 3700 50  0001 C CNN
+F 3 "~" H 14100 3700 50  0001 C CNN
+	1    14100 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW79
+U 1 1 5EAC2A4D
+P 14450 3500
+F 0 "SW79" H 14450 3733 60  0000 C CNN
+F 1 "KEYSW" H 14450 3400 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 14450 3500 60  0001 C CNN
+F 3 "" H 14450 3500 60  0000 C CNN
+	1    14450 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 2950 14100 3000
+Wire Wire Line
+	14150 2950 14100 2950
+$Comp
+L Device:D D76
+U 1 1 5EAC2A45
+P 14100 3150
+F 0 "D76" V 14146 3071 50  0000 R CNN
+F 1 " " V 14055 3071 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 14100 3150 50  0001 C CNN
+F 3 "~" H 14100 3150 50  0001 C CNN
+	1    14100 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12700 5050 13400 5050
+Wire Wire Line
+	12700 4450 13400 4450
+Wire Wire Line
+	12700 3850 13400 3850
+Wire Wire Line
+	12700 3300 13400 3300
+Wire Wire Line
+	13400 4700 13400 4750
+Wire Wire Line
+	13450 4700 13400 4700
+$Comp
+L Device:D D83
+U 1 1 5EA99F8E
+P 13400 4900
+F 0 "D83" V 13446 4821 50  0000 R CNN
+F 1 " " V 13355 4821 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13400 4900 50  0001 C CNN
+F 3 "~" H 13400 4900 50  0001 C CNN
+	1    13400 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW83
+U 1 1 5EA99F88
+P 13750 4700
+F 0 "SW83" H 13750 4933 60  0000 C CNN
+F 1 "KEYSW" H 13750 4600 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13750 4700 60  0001 C CNN
+F 3 "" H 13750 4700 60  0000 C CNN
+	1    13750 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13400 4100 13400 4150
+Wire Wire Line
+	13450 4100 13400 4100
+$Comp
+L Device:D D81
+U 1 1 5EA99F80
+P 13400 4300
+F 0 "D81" V 13446 4221 50  0000 R CNN
+F 1 " " V 13355 4221 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13400 4300 50  0001 C CNN
+F 3 "~" H 13400 4300 50  0001 C CNN
+	1    13400 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW81
+U 1 1 5EA99F7A
+P 13750 4100
+F 0 "SW81" H 13750 4333 60  0000 C CNN
+F 1 "KEYSW" H 13750 4000 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13750 4100 60  0001 C CNN
+F 3 "" H 13750 4100 60  0000 C CNN
+	1    13750 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13400 3500 13400 3550
+Wire Wire Line
+	13450 3500 13400 3500
+$Comp
+L Device:D D78
+U 1 1 5EA99F72
+P 13400 3700
+F 0 "D78" V 13446 3621 50  0000 R CNN
+F 1 " " V 13355 3621 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13400 3700 50  0001 C CNN
+F 3 "~" H 13400 3700 50  0001 C CNN
+	1    13400 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW78
+U 1 1 5EA99F6C
+P 13750 3500
+F 0 "SW78" H 13750 3733 60  0000 C CNN
+F 1 "KEYSW" H 13750 3400 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13750 3500 60  0001 C CNN
+F 3 "" H 13750 3500 60  0000 C CNN
+	1    13750 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13400 2950 13400 3000
+Wire Wire Line
+	13450 2950 13400 2950
+$Comp
+L Device:D D75
+U 1 1 5EA99F64
+P 13400 3150
+F 0 "D75" V 13446 3071 50  0000 R CNN
+F 1 " " V 13355 3071 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13400 3150 50  0001 C CNN
+F 3 "~" H 13400 3150 50  0001 C CNN
+	1    13400 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13350 4100 13350 4700
+Connection ~ 13350 4100
+Wire Wire Line
+	13350 3500 13350 4100
+Connection ~ 13350 3500
+Wire Wire Line
+	13350 2950 13350 3500
+Connection ~ 13350 2950
+Wire Wire Line
+	13350 2900 13350 2950
+Text GLabel 13350 2900 1    50   Input ~ 0
+col14
+Text Label 13350 3050 3    50   ~ 0
+col14
+Wire Wire Line
+	12000 4450 12700 4450
+Wire Wire Line
+	12000 3850 12700 3850
+Wire Wire Line
+	12000 3300 12700 3300
+Wire Wire Line
+	12700 4700 12700 4750
+Wire Wire Line
+	12750 4700 12700 4700
+$Comp
+L Device:D D58
+U 1 1 5BE3490A
+P 12700 4900
+F 0 "D58" V 12746 4821 50  0000 R CNN
+F 1 " " V 12655 4821 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 12700 4900 50  0001 C CNN
+F 3 "~" H 12700 4900 50  0001 C CNN
+	1    12700 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW58
+U 1 1 5BE34903
+P 13050 4700
+F 0 "SW58" H 13050 4933 60  0000 C CNN
+F 1 "KEYSW" H 13050 4600 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13050 4700 60  0001 C CNN
+F 3 "" H 13050 4700 60  0000 C CNN
+	1    13050 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 4100 12700 4150
+Wire Wire Line
+	12750 4100 12700 4100
+$Comp
+L Device:D D44
+U 1 1 5BE2E46A
+P 12700 4300
+F 0 "D44" V 12746 4221 50  0000 R CNN
+F 1 " " V 12655 4221 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 12700 4300 50  0001 C CNN
+F 3 "~" H 12700 4300 50  0001 C CNN
+	1    12700 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW44
+U 1 1 5BE2E463
+P 13050 4100
+F 0 "SW44" H 13050 4333 60  0000 C CNN
+F 1 "KEYSW" H 13050 4000 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13050 4100 60  0001 C CNN
+F 3 "" H 13050 4100 60  0000 C CNN
+	1    13050 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 3500 12700 3550
+Wire Wire Line
+	12750 3500 12700 3500
+$Comp
+L Device:D D30
+U 1 1 5BDD4B60
+P 12700 3700
+F 0 "D30" V 12746 3621 50  0000 R CNN
+F 1 " " V 12655 3621 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 12700 3700 50  0001 C CNN
+F 3 "~" H 12700 3700 50  0001 C CNN
+	1    12700 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW30
+U 1 1 5BDD4B59
+P 13050 3500
+F 0 "SW30" H 13050 3733 60  0000 C CNN
+F 1 "KEYSW" H 13050 3400 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13050 3500 60  0001 C CNN
+F 3 "" H 13050 3500 60  0000 C CNN
+	1    13050 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 2950 12700 3000
+Wire Wire Line
+	12750 2950 12700 2950
+$Comp
+L Device:D D15
+U 1 1 5BDD1872
+P 12700 3150
+F 0 "D15" V 12746 3071 50  0000 R CNN
+F 1 " " V 12655 3071 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 12700 3150 50  0001 C CNN
+F 3 "~" H 12700 3150 50  0001 C CNN
+	1    12700 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW15
+U 1 1 5BDD186B
+P 13050 2950
+F 0 "SW15" H 13050 3183 60  0000 C CNN
+F 1 "KEYSW" H 13050 2850 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13050 2950 60  0001 C CNN
+F 3 "" H 13050 2950 60  0000 C CNN
+	1    13050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D57
+U 1 1 5BE348FA
+P 12000 4900
+F 0 "D57" V 12046 4821 50  0000 R CNN
+F 1 " " V 11955 4821 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 12000 4900 50  0001 C CNN
+F 3 "~" H 12000 4900 50  0001 C CNN
+	1    12000 4900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12000 5050
+Wire Wire Line
+	12000 5050 12700 5050
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW57
+U 1 1 5BE348F3
+P 12350 4700
+F 0 "SW57" H 12350 4933 60  0000 C CNN
+F 1 "KEYSW" H 12350 4600 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 12350 4700 60  0001 C CNN
+F 3 "" H 12350 4700 60  0000 C CNN
+	1    12350 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 14750 4700
 Connection ~ 14050 4700
+Connection ~ 13350 4700
+Connection ~ 12650 4700
+Connection ~ 11950 4700
+Connection ~ 10600 5600
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW65
+U 1 1 5BE881D1
+P 11650 5250
+F 0 "SW65" H 11650 5483 60  0000 C CNN
+F 1 "KEYSW" H 11650 5150 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 11650 5250 60  0001 C CNN
+F 3 "" H 11650 5250 60  0000 C CNN
+	1    11650 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14750 4700 14750 5250
 Wire Wire Line
 	14050 4700 14050 5250
 Wire Wire Line
-	14750 2900 14750 2950
-Connection ~ 14750 2950
+	13400 5600 14100 5600
 Wire Wire Line
-	14750 2950 14750 3500
-Connection ~ 14750 3500
+	14100 5250 14100 5300
 Wire Wire Line
-	14750 3500 14750 4100
-Connection ~ 14750 4100
-Wire Wire Line
-	14750 4100 14750 4700
-Connection ~ 14750 4700
-Wire Wire Line
-	14750 4700 14750 5250
-Text GLabel 15450 2900 1    50   Input ~ 0
-col17
+	14150 5250 14100 5250
 $Comp
-L discipline-pcb-rescue:KEYSW-keyboard_parts SW75
-U 1 1 5EB71A2B
-P 13750 2950
-F 0 "SW75" H 13750 3183 60  0000 C CNN
-F 1 "KEYSW" H 13750 2850 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13750 2950 60  0001 C CNN
-F 3 "" H 13750 2950 60  0000 C CNN
-	1    13750 2950
+L Device:D D87
+U 1 1 5EAC2A7D
+P 14100 5450
+F 0 "D87" V 14146 5371 50  0000 R CNN
+F 1 " " V 14055 5371 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 14100 5450 50  0001 C CNN
+F 3 "~" H 14100 5450 50  0001 C CNN
+	1    14100 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW87
+U 1 1 5EAC2A77
+P 14450 5250
+F 0 "SW87" H 14450 5483 60  0000 C CNN
+F 1 "KEYSW" H 14450 5150 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 14450 5250 60  0001 C CNN
+F 3 "" H 14450 5250 60  0000 C CNN
+	1    14450 5250
 	1    0    0    -1  
 $EndComp
-Connection ~ 14050 2950
 Wire Wire Line
-	14050 2950 14050 3500
-Text GLabel 4600 7050 2    50   Input ~ 0
+	12700 5600 13400 5600
+Wire Wire Line
+	13400 5250 13400 5300
+Wire Wire Line
+	13450 5250 13400 5250
+$Comp
+L Device:D D86
+U 1 1 5EA99F9C
+P 13400 5450
+F 0 "D86" V 13446 5371 50  0000 R CNN
+F 1 " " V 13355 5371 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13400 5450 50  0001 C CNN
+F 3 "~" H 13400 5450 50  0001 C CNN
+	1    13400 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW86
+U 1 1 5EA99F96
+P 13750 5250
+F 0 "SW86" H 13750 5483 60  0000 C CNN
+F 1 "KEYSW" H 13750 5150 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13750 5250 60  0001 C CNN
+F 3 "" H 13750 5250 60  0000 C CNN
+	1    13750 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13350 4700 13350 5250
+Wire Wire Line
+	12650 4700 12650 5250
+Wire Wire Line
+	11950 4700 11950 5250
+Connection ~ 11300 5600
+Wire Wire Line
+	10600 5600 11300 5600
+Wire Wire Line
+	12000 5600 12700 5600
+Connection ~ 12000 5600
+Wire Wire Line
+	11300 5600 12000 5600
+Wire Wire Line
+	12700 5250 12700 5300
+Wire Wire Line
+	12750 5250 12700 5250
+$Comp
+L Device:D D67
+U 1 1 5BE881F8
+P 12700 5450
+F 0 "D67" V 12746 5371 50  0000 R CNN
+F 1 " " V 12655 5371 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 12700 5450 50  0001 C CNN
+F 3 "~" H 12700 5450 50  0001 C CNN
+	1    12700 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW67
+U 1 1 5BE881F1
+P 13050 5250
+F 0 "SW67" H 13050 5483 60  0000 C CNN
+F 1 "KEYSW" H 13050 5150 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13050 5250 60  0001 C CNN
+F 3 "" H 13050 5250 60  0000 C CNN
+	1    13050 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 5250 12000 5300
+Wire Wire Line
+	12050 5250 12000 5250
+$Comp
+L Device:D D66
+U 1 1 5BE881E8
+P 12000 5450
+F 0 "D66" V 12046 5371 50  0000 R CNN
+F 1 " " V 11955 5371 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 12000 5450 50  0001 C CNN
+F 3 "~" H 12000 5450 50  0001 C CNN
+	1    12000 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW66
+U 1 1 5BE881E1
+P 12350 5250
+F 0 "SW66" H 12350 5483 60  0000 C CNN
+F 1 "KEYSW" H 12350 5150 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 12350 5250 60  0001 C CNN
+F 3 "" H 12350 5250 60  0000 C CNN
+	1    12350 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11300 5250 11300 5300
+Wire Wire Line
+	11350 5250 11300 5250
+$Comp
+L Device:D D65
+U 1 1 5BE881D8
+P 11300 5450
+F 0 "D65" V 11346 5371 50  0000 R CNN
+F 1 " " V 11255 5371 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 11300 5450 50  0001 C CNN
+F 3 "~" H 11300 5450 50  0001 C CNN
+	1    11300 5450
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9750 7500 0    50   Input ~ 0
+row0
+Text GLabel 9750 7600 0    50   Input ~ 0
+row1
+Text GLabel 9750 7700 0    50   Input ~ 0
+row2
+Text GLabel 9750 7800 0    50   Input ~ 0
+row3
+Text GLabel 9750 7900 0    50   Input ~ 0
+row4
+Text GLabel 9750 8000 0    50   Input ~ 0
+col0
+Text GLabel 9750 8100 0    50   Input ~ 0
+col1
+Text GLabel 9750 8200 0    50   Input ~ 0
+col2
+Text GLabel 9750 8300 0    50   Input ~ 0
+col3
+Text GLabel 9750 8400 0    50   Input ~ 0
+col4
+Text GLabel 9750 8500 0    50   Input ~ 0
+col5
+Text GLabel 9750 8600 0    50   Input ~ 0
+col6
+Text GLabel 9750 8700 0    50   Input ~ 0
+col7
+Text GLabel 9750 8800 0    50   Input ~ 0
+col8
+Text GLabel 9750 8900 0    50   Input ~ 0
+col9
+Text GLabel 9750 9000 0    50   Input ~ 0
+col10
+Text GLabel 9750 9100 0    50   Input ~ 0
+col11
+Text GLabel 9750 9200 0    50   Input ~ 0
+col12
+Text GLabel 9750 9300 0    50   Input ~ 0
+col13
+Text GLabel 9750 9400 0    50   Input ~ 0
+col14
+Text GLabel 9750 9500 0    50   Input ~ 0
 col15
-Text GLabel 4600 7150 2    50   Input ~ 0
+Text GLabel 9750 9600 0    50   Input ~ 0
 col16
-Text GLabel 4600 7250 2    50   Input ~ 0
+Text GLabel 9750 9700 0    50   Input ~ 0
 col17
+$Comp
+L MOLEX_39-53-2304:MOLEX_39-53-2304 J2
+U 1 1 5ECCC4D7
+P 10350 7400
+F 0 "J2" V 11900 7230 50  0000 L CNN
+F 1 "MOLEX_39-53-2304" H 10350 7400 50  0001 L BNN
+F 2 "MOLEX_39-53-2304:MOLEX_39-53-2304_0" H 10350 7400 50  0001 L BNN
+F 3 "" H 10350 7400 50  0001 C CNN
+	1    10350 7400
+	0    1    1    0   
+$EndComp
+Text GLabel 10800 7500 0    50   Input ~ 0
+row0
+Text GLabel 10800 7600 0    50   Input ~ 0
+row1
+Text GLabel 10800 7700 0    50   Input ~ 0
+row2
+Text GLabel 10800 7800 0    50   Input ~ 0
+row3
+Text GLabel 10800 7900 0    50   Input ~ 0
+row4
+Text GLabel 10800 8000 0    50   Input ~ 0
+col0
+Text GLabel 10800 8100 0    50   Input ~ 0
+col1
+Text GLabel 10800 8200 0    50   Input ~ 0
+col2
+Text GLabel 10800 8300 0    50   Input ~ 0
+col3
+Text GLabel 10800 8400 0    50   Input ~ 0
+col4
+Text GLabel 10800 8500 0    50   Input ~ 0
+col5
+Text GLabel 10800 8600 0    50   Input ~ 0
+col6
+Text GLabel 10800 8700 0    50   Input ~ 0
+col7
+Text GLabel 10800 8800 0    50   Input ~ 0
+col8
+Text GLabel 10800 8900 0    50   Input ~ 0
+col9
+Text GLabel 10800 9000 0    50   Input ~ 0
+col10
+Text GLabel 10800 9100 0    50   Input ~ 0
+col11
+Text GLabel 10800 9200 0    50   Input ~ 0
+col12
+Text GLabel 10800 9300 0    50   Input ~ 0
+col13
+Text GLabel 10800 9400 0    50   Input ~ 0
+col14
+Text GLabel 10800 9500 0    50   Input ~ 0
+col15
+Text GLabel 10800 9600 0    50   Input ~ 0
+col16
+Text GLabel 10800 9700 0    50   Input ~ 0
+col17
+$Comp
+L MOLEX_39-53-2304:MOLEX_39-53-2304 J3
+U 1 1 5ED45368
+P 11400 7400
+F 0 "J3" V 12950 7230 50  0000 L CNN
+F 1 "MOLEX_39-53-2304" H 11400 7400 50  0001 L BNN
+F 2 "MOLEX_39-53-2304:MOLEX_39-53-2304_0" H 11400 7400 50  0001 L BNN
+F 3 "" H 11400 7400 50  0001 C CNN
+	1    11400 7400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
