@@ -8,10 +8,14 @@
 - Removed ~, Delete, Page Up, Page Down keys. These will be on alternate layer. 
 - Created Digikey version of BOM, found here: https://octopart.com/bom-tool/AgAHKWUi
 
-![](./doc/images/numdiscipline.png)
-![](./doc/images/NumDiscipline-pcb-front.png)
-![](./doc/images/NumDiscipline-pcb-back.png)
-![](./doc/images/NumDiscipline-layers.png)
+
+![](./images/NumDiscipline-layout.jpg)
+
+![](./images/NumDiscipline-pcb-front.png)
+
+![](./images/NumDiscipline-pcb-back.png)
+
+![](./images/NumDiscipline-layers.png)
 
 
 ### ToDo 
