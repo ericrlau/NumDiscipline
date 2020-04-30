@@ -8,13 +8,15 @@
 - Removed ~, Delete, Page Up, Page Down keys. These will be on alternate layer. 
 - Created Digikey version of BOM, found here: https://octopart.com/bom-tool/AgAHKWUi
 
-![](./doc/images/NumDiscipline-pcb-front.png)
 
-![](./doc/images/NumDiscipline-pcb-back.png)
+![](./images/NumDiscipline-layout.jpg)
 
-![](./doc/images/NumDiscipline-layers.png)
+![](./images/NumDiscipline-pcb-front.png)
 
-![](./doc/images/NumDiscipline-layout.png)
+![](./images/NumDiscipline-pcb-back.png)
+
+![](./images/NumDiscipline-layers.png)
+
 
 ### ToDo 
 - QMK Firmware modification
