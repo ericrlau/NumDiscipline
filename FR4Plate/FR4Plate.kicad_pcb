@@ -105,7 +105,7 @@
   )
 
   (module MountingHole:MountingHole_3.5mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5EB988B0)
-    (at 272.7005 144.01875)
+    (at 258.413 144.01875)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (attr virtual)
@@ -241,8 +241,8 @@
       (xy -0.240941 -0.963111) (xy -0.118512 -0.973243) (xy 0.003918 -0.983376) (xy 0.003918 1.012082)) (layer F.SilkS) (width 0.01))
   )
 
-  (module MountingHole:MountingHole_3.5mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5EB987C8)
-    (at 177.4505 144.01875)
+  (module MountingHole:MountingHole_3.5mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5EB9921E)
+    (at 177.4505 153.54375)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (attr virtual)
