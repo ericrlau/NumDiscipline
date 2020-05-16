@@ -19,6 +19,9 @@ A modified version of the great looking Discipline through hole keyboard design 
 
 ## Images
 
+#### First Prototype
+![](./images/proto1.jpg)
+
 #### Layout
 ![](./images/NumDiscipline-layout.jpg)
 
