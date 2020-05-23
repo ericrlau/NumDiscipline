@@ -19,7 +19,8 @@ A modified version of the great looking Discipline through hole keyboard design 
 - Next order of PCBs: 
 	- Adjust #DISCIPLINE logo in space bar area so that it doesn't overlap stablaizer. 
 	- Omit job number silk screen from vendor. 
-	- Improve surface finish on black solder mask, some dark spots. 
+	- Improve surface finish on black solder mask, some dark spots.
+	- Remove drills from FR4 switch plate.
 
 
 ## Images
