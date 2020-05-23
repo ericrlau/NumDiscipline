@@ -13,14 +13,23 @@ A modified version of the great looking Discipline through hole keyboard design 
 
 
 ## ToDo 
-- Prototype build and testing
+- Assemble proto with full build including switch plate and bottom plate. (
+- Cut and assemble acrylic gaurd and feet. 
 - add Via support
+- Next order of PCBs: 
+	- Adjust #DISCIPLINE logo in space bar area so that it doesn't overlap stablaizer. 
+	- Omit job number silk screen from vendor. 
+	- Improve surface finish on black solder mask, some dark spots. 
 
 
 ## Images
 
-#### First Prototype
-![](./images/proto1.jpg)
+#### Prototype Build
+![](./images/SampleBuild/proto2.jpg)
+![](./images/SampleBuild/proto2_detail.jpg)
+![](./images/SampleBuild/MainPCBs.jpg)
+![](./images/SampleBuild/PopulatedBoard.jpg)
+![](./images/SampleBuild/PopulatedBoardWithSwitches.jpg)
 
 #### Layout
 ![](./images/NumDiscipline-layout.jpg)
