@@ -13,24 +13,27 @@ A modified version of the great looking Discipline through hole keyboard design 
 
 
 ## ToDo 
-- Assemble proto with full build including switch plate and bottom plate. (
-- Cut and assemble acrylic gaurd and feet. 
+- Adjust acrylic foot design to be wider, it looks a little thin. 
 - add Via support
 - Next order of PCBs: 
-	- Adjust #DISCIPLINE logo in space bar area so that it doesn't overlap stablaizer. 
-	- Omit job number silk screen from vendor. 
-	- Improve surface finish on black solder mask, some dark spots.
-	- Remove drills from FR4 switch plate.
+	- Adjust #DISCIPLINE logo in space bar area so that it doesn't overlap stablaizer. [Image](./images/knownIssues/Logoplacement.jpg)
+	- Omit job number silk screen from vendor.[Plate](./images/knownIssues/plate.jpg) [Main](./images/knownIssues/jobNumMain.jpg) [Bottom](./images/knownIssues/jobNumBottom.jpg) 
+	- Improve surface finish on black solder mask, some dark spots. [Image](./images/knownIssues/surfaceFinish.jpg) 
+	- Remove drills from FR4 switch plate. [Image](./images/knownIssues/plate.jpg)
 
 
 ## Images
 
 #### Prototype Build
-![](./images/SampleBuild/proto2.jpg)
-![](./images/SampleBuild/proto2_detail.jpg)
+![](./images/SampleBuild/top.jpg)
+![](./images/SampleBuild/threequarter.jpg)
+![](./images/SampleBuild/side.jpg)
+![](./images/SampleBuild/bottom.jpg)
 ![](./images/SampleBuild/MainPCBs.jpg)
 ![](./images/SampleBuild/PopulatedBoard.jpg)
 ![](./images/SampleBuild/PopulatedBoardWithSwitches.jpg)
+
+
 
 #### Layout
 ![](./images/NumDiscipline-layout.jpg)
